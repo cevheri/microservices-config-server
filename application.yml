@@ -5,6 +5,6 @@ eureka:
     service-url:
       # for local
       # defaultZone: http://localhost:8761/eureka/
-      defaultZone: http://service-registry:8761/eureka/
+      defaultZone: http://test-service-registry:8761/eureka/
   instance:
     hostname: service-registry
